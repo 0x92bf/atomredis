@@ -1,0 +1,21 @@
+{
+    "name": "szj/atomredis",
+    "description": "redis client",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "szj",
+            "email": "312125539@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "atomredis\\Redis\\": "src/Redis"
+        }
+    }
+}
