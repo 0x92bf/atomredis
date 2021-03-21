@@ -1,7 +1,7 @@
 <?php
 
 
-namespace atomredis\Redis;
+namespace atomredis;
 
 
 class Redis
